@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="request.js"></script>
+		<title>encrypted_message</title>
+	</head>
+	<body>
+		<input placeholder="Message" id="message"/>
+		<button type="button" onclick="sendRequest('encrypt')">encrypt</button>
+		<button type="button" onclick="sendRequest('decrypt')">decrypt</button>
+		<span id="result-phrase"></span>
+	</body>
+</html>
